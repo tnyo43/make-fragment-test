@@ -1,0 +1,10 @@
+type User {
+  id: ID!
+  name: String!
+  avatarUrl: String!
+  email: String!
+}
+
+type Query {
+  currentUser: User!
+}
