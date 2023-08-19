@@ -38,3 +38,16 @@ makeFragmentData(
   },
   Profile_queryFragment
 );
+
+// be typed well!
+customMakeFragmentData(
+  {
+    currentUser: {
+      id: "123",
+      name: "alice",
+      avatarUrl: "https://image.example/alice.png",
+      email: "alice@mail.com",
+    },
+  },
+  Profile_queryFragment
+);
